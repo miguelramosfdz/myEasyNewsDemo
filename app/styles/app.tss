@@ -1,0 +1,46 @@
+'Label' : {
+	height : Ti.UI.SIZE,
+	width : Ti.UI.SIZE
+},
+'Window[platform=ios]' : {
+	navBarHidden : true
+},
+'#main_window' : {
+	backgroundColor : '#f2f2f2'
+},
+'#main_view' : {
+	backgroundColor : '#f2f2f2',
+		top : '106dp',
+	bottom : 0
+},
+'.fill_width' : {
+	width : Ti.UI.FILL
+},
+'.fill_height' : {
+	height : Ti.UI.FILL
+},
+'.transparent_separator' : {
+	height : '2dp',
+	bottom : '15dp',
+	backgroundColor : '#000',
+	left : '26dp',
+	right : '25dp'
+},
+'.btn_font' : {
+	color : '#fff',
+	font : {
+		fontSize : '36dp',
+		fontFamily : 'Oswald-Light'
+	}
+},
+'.horizontal_padding' : {
+	left : '25dp',
+	right : '25dp'
+},
+'.btn_back' : {
+	top : 0,
+	height : '106dp',
+	width : '767',
+	backgroundImage : '/images/backnormal.png',
+	backgroundSelectedImage : '/images/backnormal_press.png'
+}

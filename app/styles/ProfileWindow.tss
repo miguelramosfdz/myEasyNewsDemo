@@ -1,0 +1,92 @@
+'#navigation_bar' : {
+	top : 0,
+	height : '106dp',
+	backgroundColor : '#00cece',
+},
+'#scrll_feed' : {
+	layout : 'vertical'
+}
+'#lbl_username' : {
+	top : '5dp',
+	left : '220dp',
+	color : '#333333',
+	text : 'Guy Kawasaki',
+},
+'#header' : {
+	height : '210dp',
+	bottom : '15dp'
+}
+'#img_user_photo' : {
+	left : '10dp',
+	height : '200dp',
+	width : '200dp',
+	image : '/images/guykawazaki.png',
+	borderRadius : 100
+},
+'.stroke' : {
+	left : '10dp',
+	height : '200dp',
+	width : '200dp',
+	image : '/images/stroke.png'
+},
+'.btn_header' : {
+	height : '95dp'
+},
+'#btn_see_messages' : {
+	top : '110dp',
+	left : '547dp',
+	width : '210dp',
+	backgroundColor : '#df7a60',
+	title : 'See Messages'
+},
+'#btn_send_private_message' : {
+	top : '110dp',
+	width : '315dp',
+	left : '220dp',
+	backgroundColor : '#48ae77',
+	title : 'Send a private Messages'
+},
+'.img_photo' : {
+	width : '748dp',
+	height : '525dp'
+},
+'.lbl_comment' : {
+	color : '#333333',
+},
+'#img_photo_1' : {
+	image : '/images/foto1.png'
+},
+'#lbl_comment_1' : {
+	text : 'I\'ll give a conference in the SXSW 2014',
+	left : '25dp',
+	top : '10dp',
+	bottom : '10dp',
+	height : Ti.UI.SIZE
+},
+'#img_photo_2' : {
+	image : '/images/foto2.png'
+},
+'.btn_like' : {
+	height : '80dp',
+	backgroundColor : '#00cece',
+	title : 'I like this',
+	autoStyle:'true'
+},
+'.btn_liked' : {
+	backgroundColor : '#9ab6b5',
+	height : '80dp',
+	title : 'Like this',
+	autoStyle:'true'
+}
+'.btn_shadow' : {
+	height : '2dp',
+	backgroundColor : '#c3c3c3',
+	left : '26dp',
+	right : '25dp'
+},
+'.comment_background' : {
+	backgroundColor : '#fff',
+	height : Ti.UI.SIZE,
+	left : '25dp',
+	right : '25dp'
+}

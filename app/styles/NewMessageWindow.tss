@@ -1,0 +1,22 @@
+'#lbl_hint_text' : {
+	top : '12dp',
+	left : '5dp',
+	color: '#c7c7cd',
+	text: 'Write a message to Guy Kawasaki'
+},
+'#txa_message' : {
+	top : 0,
+	left :0,
+	right : 0,
+	bottom : 0,
+	color :'#333333'
+},
+'#btn_send_message' :
+{
+	bottom : '15dp',
+	title : 'Send Message',
+	backgroundColor : '#00cece'
+},
+'#main_view' : {
+	bottom : '264dp'
+}

@@ -1,0 +1,3 @@
+<Alloy>
+	<Button id='btn_back' onClick='goBack'/>
+</Alloy>

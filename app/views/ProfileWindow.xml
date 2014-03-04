@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id='main_window'>
+		<Button class='btn_back' onClick='goBack'/>
+		<View class='main_view' id='main_view'>
+			<ScrollView class='fill_width fill_height' id='scrll_feed'>
+				<View id='header'>
+					<ImageView id='img_user_photo'/>
+					<ImageView class='stroke'/>
+					<Label class='btn_font' id='lbl_username'/>
+					<Button class='btn_font btn_header' id='btn_see_messages'/>
+					<Button class='btn_font btn_header' id='btn_send_private_message' onClick='sendNewMessage'/>
+				</View>
+				<ImageView class='img_photo' id='img_photo_1'/>
+				<Button class='horizontal_padding btn_font btn_liked' id='like_button_1' onClick='toggleLike' tag='0'/>
+				<View class='transparent_separator'/>
+				<View class='comment_background'>
+					<Label class='btn_font lbl_comment' id='lbl_comment_1'/>
+				</View>
+				<Button class='horizontal_padding btn_font btn_like' id='like_button_3' onClick='toggleLike' tag='1'/>
+				<View class='transparent_separator'/>
+				<ImageView class='img_photo' id='img_photo_2'/>
+				<Button class='horizontal_padding btn_font btn_liked' id='like_button_2' onClick='toggleLike' tag='0'/>
+				<View class='transparent_separator'/>
+			</ScrollView>
+		</View>
+	</Window>
+</Alloy>

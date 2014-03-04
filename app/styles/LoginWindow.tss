@@ -1,0 +1,25 @@
+'#visual_elements_container' : {
+	height : Ti.UI.SIZE,
+	layout : 'vertical'
+},
+'#img_view' : {
+	height : '286',
+	width : '564',
+	image : '/images/logoscreen1.png',
+},
+'#btn_login' : {
+	top : '50dp',
+	backgroundImage : '/images/connectwithfbnormal.png',
+	backgroundSelectedImage : '/images/connectwithfb1.png',
+	height : ' 135dp',
+	width : '702'
+},
+'#lbl_terms_of_service' : {
+	bottom : '15dp',
+	text : 'By connectiong to this app, you are accepting our policies',
+	color : '#000',
+	font : {
+		fontSize : '20dp',
+		fontFamily : 'Oswald-Light'
+	}
+}

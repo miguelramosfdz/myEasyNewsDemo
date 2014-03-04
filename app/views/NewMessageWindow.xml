@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id='main_window' onOpen='init'>
+		<Button class='btn_back' onClick='goBack'/>
+		<View class='main_view' id='main_view'>
+			<TextArea class='btn_font' id='txa_message' onChange='hideHintText'/>
+			<Label class='btn_font' id='lbl_hint_text'/>
+			<Button class='horizontal_padding btn_font' id='btn_send_message' onClick='sendMessage'/>
+		</View>
+	</Window>
+</Alloy>

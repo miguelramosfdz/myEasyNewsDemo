@@ -1,0 +1,5 @@
+<Alloy>
+	<View id='black_view'>
+		<ActivityIndicator id='activity_indicator'/>
+	</View>
+</Alloy>

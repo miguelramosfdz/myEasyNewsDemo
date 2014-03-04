@@ -1,0 +1,26 @@
+'#activity_indicator[platform=ios]' : {
+	style : Titanium.UI.iPhone.ActivityIndicatorStyle.BIG,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	top:'10dp',
+	left : '10dp',
+	right : '10dp',
+	bottom : '10dp',
+},
+'#activity_indicator[platform=android]' : {
+	style : Titanium.UI.ActivityIndicatorStyle.BIG,
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	top:'10dp',
+	left : '10dp',
+	right : '10dp',
+	bottom : '10dp',
+},
+'#black_view' : {
+	backgroundColor : 'black',
+	height:Ti.UI.SIZE,
+	borderRadius: 8,
+	width:Ti.UI.SIZE,
+	zIndex: 10,
+	visible : false
+}

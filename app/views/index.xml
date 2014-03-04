@@ -1,0 +1,26 @@
+<Alloy>
+	<NavigationWindow id='navigation_window' platform='ios'>
+		<Window id='main_window' onOpen='init'>
+			<View id='main_view'>
+				<View id='form_container'>
+					<View id='label_container'>
+						<Label class='lbl_user' id='lbl_hello'/>
+						<Label class='lbl_user' id='lbl_emma'/>
+					</View>
+					<View class='fill_width' id='search_container'>
+						<TextField class='horizontal_padding btn_font' id='txf_search' onFocus='setSearchMode' onBlur='searchFriends'/>
+						<Button class='horizontal_padding btn_font' id='btn_search' onClick='searchFriends'/>
+						<View class='horizontal_padding black_bar'/>
+					</View>
+				</View>
+				<View class='fill_width' id='recent_searches'>
+					<ImageView id='img_recent_search'/>
+				</View>
+				<TableView class='fill_width' id='tbl_search_results' onClick='showUserProfile'/>
+				<View class='fill_width' id='dark_view'/>
+			</View>
+		</Window>
+	</NavigationWindow>
+	<Window id='main_window' platform='android'>
+	</Window>
+</Alloy>

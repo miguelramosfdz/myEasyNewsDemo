@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id='main_window' onAndroidback='displayLoginMessage'>
+		<View id='main_view'>
+			<View id='visual_elements_container'>
+				<ImageView id='img_view'/>
+				<Button id='btn_login' onClick='initSession'/>
+			</View>
+			<Label id='lbl_terms_of_service' onClick='showTermsOfService'/>
+		</View>
+		<Widget src='com.startupbus.loading' id='loading_indicator'/>
+	</Window>
+</Alloy>
